@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B99DF8892A1FC04300A7EC1F /* No Heartbeat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B99DF8882A1FC04300A7EC1F /* No Heartbeat.mp4 */; };
+		B99DF88B2A1FC05B00A7EC1F /* Heartbeat lines.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B99DF88A2A1FC05B00A7EC1F /* Heartbeat lines.mp4 */; };
+		B9E2FD922A1B06CF00A76806 /* iFell Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B9E2FD912A1B06CF00A76806 /* iFell Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B9E2FD972A1B06CF00A76806 /* iFellApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E2FD962A1B06CF00A76806 /* iFellApp.swift */; };
+		B9E2FD992A1B06CF00A76806 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E2FD982A1B06CF00A76806 /* ContentView.swift */; };
+		B9E2FD9B2A1B06D100A76806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9E2FD9A2A1B06D100A76806 /* Assets.xcassets */; };
+		B9E2FD9E2A1B06D100A76806 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9E2FD9D2A1B06D100A76806 /* Preview Assets.xcassets */; };
+		B9E2FDA82A1B06D100A76806 /* iFell_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E2FDA72A1B06D100A76806 /* iFell_Watch_AppTests.swift */; };
+		B9E2FDB22A1B06D200A76806 /* iFell_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E2FDB12A1B06D200A76806 /* iFell_Watch_AppUITests.swift */; };
+		B9E2FDB42A1B06D200A76806 /* iFell_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E2FDB32A1B06D200A76806 /* iFell_Watch_AppUITestsLaunchTests.swift */; };
+		B9E2FDCF2A1D2A9C00A76806 /* alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9E2FDCE2A1D2A9C00A76806 /* alarm.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9E2FD932A1B06CF00A76806 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9E2FD852A1B06CE00A76806 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9E2FD902A1B06CF00A76806;
+			remoteInfo = "iFell Watch App";
+		};
+		B9E2FDA42A1B06D100A76806 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9E2FD852A1B06CE00A76806 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9E2FD902A1B06CF00A76806;
+			remoteInfo = "iFell Watch App";
+		};
+		B9E2FDAE2A1B06D200A76806 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9E2FD852A1B06CE00A76806 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9E2FD902A1B06CF00A76806;
+			remoteInfo = "iFell Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B9E2FDBA2A1B06D200A76806 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B9E2FD922A1B06CF00A76806 /* iFell Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B99DF8882A1FC04300A7EC1F /* No Heartbeat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "No Heartbeat.mp4"; sourceTree = "<group>"; };
+		B99DF88A2A1FC05B00A7EC1F /* Heartbeat lines.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heartbeat lines.mp4"; sourceTree = "<group>"; };
+		B9E2FD8B2A1B06CF00A76806 /* iFell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9E2FD912A1B06CF00A76806 /* iFell Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iFell Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9E2FD962A1B06CF00A76806 /* iFellApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFellApp.swift; sourceTree = "<group>"; };
+		B9E2FD982A1B06CF00A76806 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B9E2FD9A2A1B06D100A76806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9E2FD9D2A1B06D100A76806 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B9E2FDA32A1B06D100A76806 /* iFell Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iFell Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9E2FDA72A1B06D100A76806 /* iFell_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFell_Watch_AppTests.swift; sourceTree = "<group>"; };
+		B9E2FDAD2A1B06D200A76806 /* iFell Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iFell Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9E2FDB12A1B06D200A76806 /* iFell_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFell_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		B9E2FDB32A1B06D200A76806 /* iFell_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFell_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B9E2FDC82A1BC8E300A76806 /* iFell Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "iFell Watch App.entitlements"; sourceTree = "<group>"; };
+		B9E2FDC92A1BDDC500A76806 /* iFell-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "iFell-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B9E2FDCE2A1D2A9C00A76806 /* alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9E2FD8E2A1B06CF00A76806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E2FDA02A1B06D100A76806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E2FDAA2A1B06D200A76806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9E2FD842A1B06CE00A76806 = {
+			isa = PBXGroup;
+			children = (
+				B9E2FD952A1B06CF00A76806 /* iFell Watch App */,
+				B9E2FDA62A1B06D100A76806 /* iFell Watch AppTests */,
+				B9E2FDB02A1B06D200A76806 /* iFell Watch AppUITests */,
+				B9E2FD8C2A1B06CF00A76806 /* Products */,
+				B9E2FDDA2A1DD76500A76806 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B9E2FD8C2A1B06CF00A76806 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9E2FD8B2A1B06CF00A76806 /* iFell.app */,
+				B9E2FD912A1B06CF00A76806 /* iFell Watch App.app */,
+				B9E2FDA32A1B06D100A76806 /* iFell Watch AppTests.xctest */,
+				B9E2FDAD2A1B06D200A76806 /* iFell Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9E2FD952A1B06CF00A76806 /* iFell Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				B9E2FDCE2A1D2A9C00A76806 /* alarm.mp3 */,
+				B99DF88A2A1FC05B00A7EC1F /* Heartbeat lines.mp4 */,
+				B99DF8882A1FC04300A7EC1F /* No Heartbeat.mp4 */,
+				B9E2FDC92A1BDDC500A76806 /* iFell-Watch-App-Info.plist */,
+				B9E2FDC82A1BC8E300A76806 /* iFell Watch App.entitlements */,
+				B9E2FD962A1B06CF00A76806 /* iFellApp.swift */,
+				B9E2FD982A1B06CF00A76806 /* ContentView.swift */,
+				B9E2FD9A2A1B06D100A76806 /* Assets.xcassets */,
+				B9E2FD9C2A1B06D100A76806 /* Preview Content */,
+			);
+			path = "iFell Watch App";
+			sourceTree = "<group>";
+		};
+		B9E2FD9C2A1B06D100A76806 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B9E2FD9D2A1B06D100A76806 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B9E2FDA62A1B06D100A76806 /* iFell Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9E2FDA72A1B06D100A76806 /* iFell_Watch_AppTests.swift */,
+			);
+			path = "iFell Watch AppTests";
+			sourceTree = "<group>";
+		};
+		B9E2FDB02A1B06D200A76806 /* iFell Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9E2FDB12A1B06D200A76806 /* iFell_Watch_AppUITests.swift */,
+				B9E2FDB32A1B06D200A76806 /* iFell_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "iFell Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		B9E2FDDA2A1DD76500A76806 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9E2FD8A2A1B06CF00A76806 /* iFell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9E2FDBB2A1B06D200A76806 /* Build configuration list for PBXNativeTarget "iFell" */;
+			buildPhases = (
+				B9E2FD892A1B06CF00A76806 /* Resources */,
+				B9E2FDBA2A1B06D200A76806 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9E2FD942A1B06CF00A76806 /* PBXTargetDependency */,
+			);
+			name = iFell;
+			productName = iFell;
+			productReference = B9E2FD8B2A1B06CF00A76806 /* iFell.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		B9E2FD902A1B06CF00A76806 /* iFell Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9E2FDB72A1B06D200A76806 /* Build configuration list for PBXNativeTarget "iFell Watch App" */;
+			buildPhases = (
+				B9E2FD8D2A1B06CF00A76806 /* Sources */,
+				B9E2FD8E2A1B06CF00A76806 /* Frameworks */,
+				B9E2FD8F2A1B06CF00A76806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iFell Watch App";
+			productName = "iFell Watch App";
+			productReference = B9E2FD912A1B06CF00A76806 /* iFell Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9E2FDA22A1B06D100A76806 /* iFell Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9E2FDBE2A1B06D200A76806 /* Build configuration list for PBXNativeTarget "iFell Watch AppTests" */;
+			buildPhases = (
+				B9E2FD9F2A1B06D100A76806 /* Sources */,
+				B9E2FDA02A1B06D100A76806 /* Frameworks */,
+				B9E2FDA12A1B06D100A76806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9E2FDA52A1B06D100A76806 /* PBXTargetDependency */,
+			);
+			name = "iFell Watch AppTests";
+			productName = "iFell Watch AppTests";
+			productReference = B9E2FDA32A1B06D100A76806 /* iFell Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9E2FDAC2A1B06D200A76806 /* iFell Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9E2FDC12A1B06D200A76806 /* Build configuration list for PBXNativeTarget "iFell Watch AppUITests" */;
+			buildPhases = (
+				B9E2FDA92A1B06D200A76806 /* Sources */,
+				B9E2FDAA2A1B06D200A76806 /* Frameworks */,
+				B9E2FDAB2A1B06D200A76806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9E2FDAF2A1B06D200A76806 /* PBXTargetDependency */,
+			);
+			name = "iFell Watch AppUITests";
+			productName = "iFell Watch AppUITests";
+			productReference = B9E2FDAD2A1B06D200A76806 /* iFell Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9E2FD852A1B06CE00A76806 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B9E2FD8A2A1B06CF00A76806 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					B9E2FD902A1B06CF00A76806 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					B9E2FDA22A1B06D100A76806 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = B9E2FD902A1B06CF00A76806;
+					};
+					B9E2FDAC2A1B06D200A76806 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = B9E2FD902A1B06CF00A76806;
+					};
+				};
+			};
+			buildConfigurationList = B9E2FD882A1B06CE00A76806 /* Build configuration list for PBXProject "iFell" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9E2FD842A1B06CE00A76806;
+			productRefGroup = B9E2FD8C2A1B06CF00A76806 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9E2FD8A2A1B06CF00A76806 /* iFell */,
+				B9E2FD902A1B06CF00A76806 /* iFell Watch App */,
+				B9E2FDA22A1B06D100A76806 /* iFell Watch AppTests */,
+				B9E2FDAC2A1B06D200A76806 /* iFell Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9E2FD892A1B06CF00A76806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E2FD8F2A1B06CF00A76806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B99DF8892A1FC04300A7EC1F /* No Heartbeat.mp4 in Resources */,
+				B9E2FD9E2A1B06D100A76806 /* Preview Assets.xcassets in Resources */,
+				B9E2FD9B2A1B06D100A76806 /* Assets.xcassets in Resources */,
+				B99DF88B2A1FC05B00A7EC1F /* Heartbeat lines.mp4 in Resources */,
+				B9E2FDCF2A1D2A9C00A76806 /* alarm.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E2FDA12A1B06D100A76806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E2FDAB2A1B06D200A76806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9E2FD8D2A1B06CF00A76806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E2FD992A1B06CF00A76806 /* ContentView.swift in Sources */,
+				B9E2FD972A1B06CF00A76806 /* iFellApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E2FD9F2A1B06D100A76806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E2FDA82A1B06D100A76806 /* iFell_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E2FDA92A1B06D200A76806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E2FDB22A1B06D200A76806 /* iFell_Watch_AppUITests.swift in Sources */,
+				B9E2FDB42A1B06D200A76806 /* iFell_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9E2FD942A1B06CF00A76806 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9E2FD902A1B06CF00A76806 /* iFell Watch App */;
+			targetProxy = B9E2FD932A1B06CF00A76806 /* PBXContainerItemProxy */;
+		};
+		B9E2FDA52A1B06D100A76806 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9E2FD902A1B06CF00A76806 /* iFell Watch App */;
+			targetProxy = B9E2FDA42A1B06D100A76806 /* PBXContainerItemProxy */;
+		};
+		B9E2FDAF2A1B06D200A76806 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9E2FD902A1B06CF00A76806 /* iFell Watch App */;
+			targetProxy = B9E2FDAE2A1B06D200A76806 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B9E2FDB52A1B06D200A76806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9E2FDB62A1B06D200A76806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B9E2FDB82A1B06D200A76806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "iFell Watch App/iFell Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iFell Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = CU9G5SANGF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iFell-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = iFell;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app requires access to heart rate data for fall detection and monitoring.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Developer-Academy.iFell.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		B9E2FDB92A1B06D200A76806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "iFell Watch App/iFell Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iFell Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = CU9G5SANGF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iFell-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = iFell;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app requires access to heart rate data for fall detection and monitoring.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Developer-Academy.iFell.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		B9E2FDBC2A1B06D200A76806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CU9G5SANGF;
+				INFOPLIST_KEY_CFBundleDisplayName = iFell;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Developer-Academy.iFell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B9E2FDBD2A1B06D200A76806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CU9G5SANGF;
+				INFOPLIST_KEY_CFBundleDisplayName = iFell;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Developer-Academy.iFell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9E2FDBF2A1B06D200A76806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CU9G5SANGF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Developer-Academy.iFell-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iFell Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iFell Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		B9E2FDC02A1B06D200A76806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CU9G5SANGF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Developer-Academy.iFell-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iFell Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iFell Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		B9E2FDC22A1B06D200A76806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CU9G5SANGF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Developer-Academy.iFell-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "iFell Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		B9E2FDC32A1B06D200A76806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CU9G5SANGF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Developer-Academy.iFell-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "iFell Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9E2FD882A1B06CE00A76806 /* Build configuration list for PBXProject "iFell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9E2FDB52A1B06D200A76806 /* Debug */,
+				B9E2FDB62A1B06D200A76806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9E2FDB72A1B06D200A76806 /* Build configuration list for PBXNativeTarget "iFell Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9E2FDB82A1B06D200A76806 /* Debug */,
+				B9E2FDB92A1B06D200A76806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9E2FDBB2A1B06D200A76806 /* Build configuration list for PBXNativeTarget "iFell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9E2FDBC2A1B06D200A76806 /* Debug */,
+				B9E2FDBD2A1B06D200A76806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9E2FDBE2A1B06D200A76806 /* Build configuration list for PBXNativeTarget "iFell Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9E2FDBF2A1B06D200A76806 /* Debug */,
+				B9E2FDC02A1B06D200A76806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9E2FDC12A1B06D200A76806 /* Build configuration list for PBXNativeTarget "iFell Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9E2FDC22A1B06D200A76806 /* Debug */,
+				B9E2FDC32A1B06D200A76806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9E2FD852A1B06CE00A76806 /* Project object */;
+}
